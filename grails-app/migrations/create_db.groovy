@@ -8,7 +8,8 @@ databaseChangeLog = {
                 constraints(nullable: "false", primaryKey: "true", primaryKeyName: "usersPK")
             }
 
-            column(name: "name", type: "longtext")
+            column(name: "user_name", type: "longtext")
+            column(name: "user_password", type: "longtext")
         }
     }
 }

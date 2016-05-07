@@ -7,7 +7,10 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
+        "/grails"(view:"/grails")
+        "/"(view:"/grails")
         "500"(view:'/error')
+
+        "/user"(resources: 'user', version: "1.0")
 	}
 }
