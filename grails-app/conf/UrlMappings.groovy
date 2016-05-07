@@ -8,7 +8,7 @@ class UrlMappings {
         }
 
         "/grails"(view:"/grails")
-        "/"(view:"/grails")
+        "/"(view:"/index")
         "500"(view:'/error')
 
         "/user"(resources: 'user', version: "1.0")
